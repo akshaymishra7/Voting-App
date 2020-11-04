@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Voting App</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_3">3</string>
+    <string name="_2">2</string>
+    <string name="select_no_of_candidates">Select No. Of Candidates</string>
+    <string name="_9">9</string>
+    <string name="_7">7</string>
+    <string name="_10">10</string>
+    <string name="_8">8</string>
+    <string name="candidate_1">Candidate 1</string>
+    <string name="candidate_2">Candidate 2</string>
+    <string name="enter_name_of_candidates">Enter Name Of Candidates</string>
+    <string name="i_agree_to_follow_fair_voting_practices">I agree to follow fair voting practices</string>
+    <string name="cand2">cand2</string>
+    <string name="cand1">cand1</string>
+    <string name="press_button_to_vote">press button to vote</string>
+    <string name="vote1">vote1</string>
+    <string name="vote2">vote2</string>
+    <string name="submit">submit</string>
+    <string name="total">total</string>
+    <string name="txt1">txt1</string>
+    <string name="txt2">txt2</string>
+    <string name="results">RESULTS</string>
+    <string name="login_to_vote">Login To Vote</string>
+    <string name="enter_user_id">Enter User Id</string>
+    <string name="login">LOGIN</string>
+    <string name="candidate1">candidate1</string>
+    <string name="candidate2">candidate2</string>
+    <string name="you_can_vote_now">You Can Vote Now</string>
+    <string name="cancel">CANCEL</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="the_voting_app">The Voting App</string>
+    <string name="about_the_app">About the App</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="txt3">txt3</string>
+    <string name="candidate3">Candidate3</string>
+    <string name="candidate4">Candidate4</string>
+    <string name="candidate5">Candidate5</string>
+    <string name="candidate_3">Candidate_3</string>
+    <string name="candidate_4">Candidate_4</string>
+    <string name="candidate_5">Candidate_5</string>
+    <string name="start_voting">START VOTING</string>
+    <string name="the_app_is_developed_by">The App is Developed By:</string>
+
+
+</resources>

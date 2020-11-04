@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/abhaya_libre</item>
+        <item>@font/aclonica</item>
+        <item>@font/aladin</item>
+        <item>@font/aldrich</item>
+        <item>@font/allerta</item>
+        <item>@font/almendra_sc</item>
+        <item>@font/amaranth</item>
+        <item>@font/amaranth_bold</item>
+        <item>@font/antic_slab</item>
+        <item>@font/aref_ruqaa</item>
+        <item>@font/berkshire_swash</item>
+        <item>@font/cagliostro</item>
+        <item>@font/convergence</item>
+        <item>@font/diplomata</item>
+        <item>@font/fondamento</item>
+        <item>@font/supermercado_one</item>
+        <item>@font/trade_winds</item>
+    </array>
+</resources>

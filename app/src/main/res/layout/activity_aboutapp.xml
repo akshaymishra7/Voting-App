@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abbg"
+    tools:context=".aboutapp">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="0dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="About The App"
+        android:textColor="#0C0C0C"
+        android:textSize="43sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/berkshire_swash"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="The admin creates a virtual environment for voting. Admin selects the number of candidates who will participate in the election process, after which he is asked to enter their names and when the process is completed a new activity is opened which asks for the authentication of the voter. The voter is then given a unique id and a password which he/she will use to login. After logging in to the activity the voter is allowed to vote the candidate of his/her choice only once. As soon as the voter presses the desired button a beep sound is played and a toast message appears confirming that his/her vote is successfully counted. The app is then redirected back to the login page and the same process is repeated for different voters. When the election process is completed, the admin can press the submit button and enter the admin's password to see the results."
+        android:textColor="#E8DDDD"
+        android:textSize="22sp"
+        android:textStyle="italic"
+        app:fontFamily="@font/amaranth"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:layout_constraintVertical_bias="0.25" />
+</androidx.constraintlayout.widget.ConstraintLayout>

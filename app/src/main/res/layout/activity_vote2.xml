@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background"
+    alpha="0.4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/votingmainoo"
+    tools:context=".vote2">
+
+    <TextView
+        android:id="@+id/cand1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="116dp"
+        android:gravity="center"
+        android:hint="@string/candidate1"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="32sp"
+        app:fontFamily="@font/amaranth"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cand2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:gravity="center"
+        android:hint="@string/candidate2"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="32sp"
+        app:fontFamily="@font/amaranth"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn1" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="380dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/greyg"
+        android:onClick="onclick"
+        android:text="VOTE1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        android:textColor="#F8F3F2"
+        android:textSize="22sp"
+        android:typeface="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cand1" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="380dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/greyg"
+        android:onClick="on2click"
+        android:text="VOTE2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        android:textColor="#F8F3F2"
+        android:textSize="22sp"
+        android:typeface="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cand2" />
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="418dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/redg"
+        android:gravity="center|center_vertical"
+        android:onClick="onSubmit"
+        android:text="@string/submit"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn2"
+        app:layout_constraintVertical_bias="0.261"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:text="@string/you_can_vote_now"
+        android:textAllCaps="true"
+        android:textColor="#364FDA"
+        android:textSize="33sp"
+        app:fontFamily="@font/trade_winds"
+        app:layout_constraintBottom_toTopOf="@+id/cand1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.235" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
